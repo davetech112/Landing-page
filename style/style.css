@@ -1,0 +1,496 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+body h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+body h1, h2, h3, p {
+  padding: 20px;
+}
+
+@media (max-width: 705px) {
+
+  body h1, h2, h3, p {
+    padding: 10px;
+  }
+  main {
+  padding: 20px;
+}
+  .head {
+    padding: 30px;
+    
+  }
+  .head .hbtn  {
+    margin-left: 2%;
+    
+  }
+main {
+  background: url(/img/bg-hero-mobile.svg);
+}
+
+.bgwhite {
+  background: white;
+  padding-top: 50px;
+}
+
+.head2 img {
+  width: 200px;
+  height: 300px;
+  padding-top: 20px;
+}
+
+.head img {
+  display: block;
+  padding-bottom: 20px;
+}
+
+h1, h2, p {
+  max-width: 250px;
+  
+}
+.head .hbtn p {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+}
+.head .hbtn p {
+  padding: 20px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  font-weight: bold;
+}
+
+.w1 {
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+  display: block;
+  max-width: 300px;
+  padding: 20px;
+  
+}
+
+.w1 img {
+  width: 200px;
+  height: 200px;
+}
+
+.w2 {
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+  display: block;
+  max-width: 300px;
+  padding: 20px;
+  
+}
+
+.w2 img {
+  width: 200px;
+  height: 200px;
+}
+
+/* .w1 .w1p {
+  
+} */
+.w3 {
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+  display: block;
+  max-width: 300px;
+  padding: 20px;
+  
+}
+
+.w3 img {
+  width: 200px;
+  height: 200px;
+}
+
+.w4 {
+  text-align: center;
+  max-width: 300px;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.w4 .btn3 {
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  background: hsl(322, 100%, 66%);
+  
+}
+
+.w4 .btn3 p {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.w4 .btn3:hover {
+  background: rgb(206, 87, 106);
+  
+}
+
+.w4 h2 {
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+.blkbg {
+  background: black;
+  padding: 30px
+}
+
+.blkbg img {
+  
+  margin-bottom: 30px;
+}
+
+.blkcont  {
+  color: white;
+  line-height: 1em;
+  font-size: 15px;
+}
+
+.blkcont a {
+  color: white;
+  line-height: 2em;
+  text-decoration: none;
+  display: block;
+}
+
+.fa-brands {
+  color: white;
+  padding: 5px;
+}
+
+.b11 {
+  display: flex;
+}
+
+.b11 img {
+  width: 20px;
+  height: 20px;
+}
+
+.b11 p {
+  padding-top: 0px;
+  width: 300px;
+  
+}
+
+.b12 {
+  display: flex;
+}
+
+.b12 p {
+  padding-top: 0px;
+  
+}
+
+.b13 {
+  display: flex;
+}
+
+.b13 p {
+  padding-top: 0px;
+  
+}
+
+/* .b1 {
+  display: block;
+}
+
+.b01 {
+  display: flex;
+} */
+
+/* .b21 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+} */
+
+/* .b01 {
+  width: 80%;
+  margin: auto;
+} */
+.con1 .btn1 {
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  background: hsl(322, 100%, 66%);
+}
+.head .hbtn {
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  background: white;
+  
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.head .hbtn:hover {
+ background: rgb(198, 192, 192);
+}
+
+}
+
+@media (min-width: 706px) {
+  main {
+    background: url(/img/bg-hero-desktop.svg);
+  }
+  .head2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .head2 .img1 {
+    width: 60%;
+    padding-left: 25%;
+  }
+
+  .head2 .con1 {
+    width: 40%;
+    
+  }
+  .head {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+  } 
+  .head .hbtn p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+  }
+  .bgwhite {
+    background: white;
+    padding-top: 50px;
+  }
+  .w1 {
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    padding: 40px;
+    
+  }
+
+  .w1 img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .w1 .w1p {
+    width: 40%;
+  }
+
+  .w2 {
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    padding: 40px;
+    
+  }
+
+  .w2 img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .w2 .w2p {
+    width: 40%;
+  }
+
+  .w3 {
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    padding: 40px;
+    
+  }
+
+  .w3 img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .w3 .w3p {
+    width: 40%;
+  }
+
+  .w4 {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .w4 .btn3 {
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    background: hsl(322, 100%, 66%);
+    
+  }
+  
+  .w4 .btn3 p {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .w4 .btn3:hover {
+    background: rgb(206, 87, 106);
+    
+  }
+
+  
+
+
+
+
+  
+.head .hbtn {
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  background: white;
+  
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.head .hbtn:hover {
+ background: rgb(198, 192, 192);
+}
+.con1 .btn1 {
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  background: hsl(322, 100%, 66%);
+  
+}
+
+.con1 .btn1 p {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.con1 .btn1:hover {
+  background: rgb(206, 87, 106);
+  
+}
+
+
+.head2 img {
+  height: 300px;
+  width: 400px;
+}
+
+.blkbg {
+  background: black;
+  padding: 30px
+}
+
+.blkbg img {
+  
+  margin-bottom: 30px;
+}
+
+.blkcont  {
+  color: white;
+  line-height: 1em;
+  font-size: 15px;
+}
+
+.blkcont a {
+  color: white;
+  line-height: 2em;
+  text-decoration: none;
+  display: block;
+}
+
+.fa-brands {
+  color: white;
+  padding: 5px;
+}
+
+.b11 {
+  display: flex;
+}
+
+.b11 img {
+  width: 20px;
+  height: 20px;
+}
+
+.b11 p {
+  padding-top: 0px;
+  width: 300px;
+  
+}
+
+.b12 {
+  display: flex;
+}
+
+.b12 p {
+  padding-top: 0px;
+  
+}
+
+.b13 {
+  display: flex;
+}
+
+.b13 p {
+  padding-top: 0px;
+  
+}
+
+.b1 {
+  display: block;
+}
+
+.b01 {
+  display: flex;
+}
+
+.b21 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.b01 {
+  width: 80%;
+  margin: auto;
+}
+
+}
