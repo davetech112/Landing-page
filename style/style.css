@@ -40,7 +40,7 @@ main {
 
 .bgwhite {
   background: white;
-  padding-top: 50px;
+  
 }
 
 .head2 img {
@@ -52,6 +52,7 @@ main {
 .head img {
   display: block;
   padding-bottom: 20px;
+  
 }
 
 h1, h2, p {
@@ -142,7 +143,7 @@ h1, h2, p {
 }
 
 .w4 .btn3:hover {
-  background: rgb(206, 87, 106);
+  background: rgb(242, 113, 208);
   
 }
 
@@ -235,7 +236,7 @@ h1, h2, p {
   border-radius: 30px;
   cursor: pointer;
   border: none;
-  background: hsl(322, 100%, 66%);
+  background: rgb(242, 113, 208);
 }
 .head .hbtn {
   border-radius: 20px;
@@ -271,9 +272,10 @@ h1, h2, p {
     
   }
   .head {
-    padding: 30px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
+    height: 90px;
   } 
   .head .hbtn p {
     padding-left: 30px;
@@ -283,6 +285,8 @@ h1, h2, p {
   .bgwhite {
     background: white;
     padding-top: 50px;
+    /* margin-bottom: -53px; */
+    position: relative;
   }
   .w1 {
     margin: 30px;
@@ -347,6 +351,16 @@ h1, h2, p {
   .w4 {
     text-align: center;
     margin: 20px;
+    background: white;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    justify-items: center;
+    align-content: center;
+    padding: 20px;
+    position:absolute;
+    bottom: -120px;
+    left: 320px;
   }
 
   .w4 .btn3 {
@@ -365,7 +379,7 @@ h1, h2, p {
   }
   
   .w4 .btn3:hover {
-    background: rgb(206, 87, 106);
+    background: rgb(242, 113, 208);
     
   }
 
@@ -403,7 +417,7 @@ h1, h2, p {
 }
 
 .con1 .btn1:hover {
-  background: rgb(206, 87, 106);
+  background: rgb(242, 113, 208);
   
 }
 
@@ -415,7 +429,8 @@ h1, h2, p {
 
 .blkbg {
   background: black;
-  padding: 30px
+  padding: 30px;
+  padding-top: 60px;
 }
 
 .blkbg img {
